@@ -1,0 +1,79 @@
+<h2 style="color: red">Lorem ipsum</h2>
+    This style property makes the h2 red. This way is called an inline style.
+
+You can also make a style elemt which uses CSS
+<style>
+    h2 {color: blue;}
+</style>
+    This makes all h2 elements red.
+---
+
+Classes are reusable styles that can be added to HTML elements. They begin with periods.
+This is called a class selector and begins with a period.
+    <style>
+        .red-text {
+            color: red;
+        }
+    </style>
+
+This is called a class declaration and does not require a period.
+    <h2 class="red-text">This is now red.</h2>
+---
+
+<style>
+    p {
+        font-size: 16px;
+        font-family: Monospace;
+    }
+</style>
+    This makes all p elements the size 16px and with the font monospace
+
+You can call a font from Google Fonts to use it in your website by putting its link on top of the code:
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+    h2 {
+        font-family: Lobster, Sans-Serif;
+    }
+
+        When you put another font, it is called degredation. If someone accesses the webpage and it can't get the font from google, it will use the font sans-serif instead.
+---
+
+Images have a "width: 100px;" attribute that can be used with CSS.
+Border have "border-style;", "border-width;", "border-color;", "border-radius (which takes a px or %)", and a lot more.
+You can have multiple classes on 1 element, just seperate the classes by a space as so:
+    <h1 class="class-1 class-2 class-etc">
+---
+
+If you need to add an a element to your website but don't know where it will link to, use a hash to make it into a dead link.
+    <a href="#">Pic of me winning a million dollars!</a>
+---
+
+Input tags are self closing.
+Form tags can go around input tags and submit tag.
+The required attribute makes it a required field.
+    <form action="\link">
+        <input type="text" placeholder="Name" required>
+        <button type="submit">Press to submit!</button>
+    </form>
+---
+
+Just how classes begin with a period, id's begin with a hash in the style brackets
+---
+
+An element's padding controls the amount of space between the element and its border.
+
+An element's margin controls the amount of space between an element's border and other elements. Negative margins increases the space of that element.
+
+You can specify padding and margin like: padding-top; margin-left;, .... OR
+you can just say padding: 20px 40px 20px 40px.
+    This works like a clock. It's top, right, bottom, left.
+---
+
+Every HTML page has a body CSS rule. Every other element will look like the body.
+When you have styles that conflict, the 2nd thing will take precedence over the 1st. The browser reads from top to bottom.
+
+In-line styles override CSS and the !important method overrides everything!
+      .pink-text {
+    color: pink !important;
+  }
