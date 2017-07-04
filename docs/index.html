@@ -21,10 +21,14 @@
 </head>
 
 <script>
-function refreshIframe() {
-    var ifr = document.getElementsByName('jquery-playground-iframe')[0];
-    ifr.src = ifr.src;
-}
+    $(document).ready(function() {
+        jQuery("#playground").click(function() {
+            document.getElementById('jquery-playground-iframe').contentWindow.location.reload();
+        })
+        jQuery("#cat-app").click(function() {
+            document.getElementById('cat-photo-app-iframe').contentWindow.location.reload();
+        })
+    });
 </script>
 
 <style>
@@ -49,11 +53,9 @@ function refreshIframe() {
         border-top-left-radius: 0% !important;
         border-top-right-radius: 0% !important;
     }
+
     .top-btns a:hover {
         text-decoration: none;
-    }
-    #view-repo {
-        font-size: 75%;
     }
 </style>
 
@@ -75,8 +77,8 @@ function refreshIframe() {
         <p>This is a portfolio to showcase everything that I have been learning at <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp.org</a><br>Please note that all of these projects are in progress, unless noted otherwise.</p>
         <br>
         <ul class="nav nav-tabs nav-justified">
-            <li class="active"><a data-toggle="tab" href="#cat-photo-app">Cat Photo App</a></li>
-            <li><a data-toggle="tab" href="#jquery-playground">jQuery Playground</a></li>
+            <li class="active" id="cat-app"><a data-toggle="tab" href="#cat-photo-app">Cat Photo App</a></li>
+            <li id="playground"><a data-toggle="tab" href="#jquery-playground">jQuery Playground</a></li>
             <li><a data-toggle="tab" href="#tribute-page">Alan Turing's Tribute Page</a></li>
         </ul>
 
@@ -85,23 +87,17 @@ function refreshIframe() {
                 <div>
                     <div class="jumbotron">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="projects/cat-photo-app.html"></iframe>
+                            <iframe class="embed-responsive-item" id="cat-photo-app-iframe" src="projects/cat-photo-app.html"></iframe>
                         </div>
-
                     </div>
                 </div>
             </div>
 
             <div id="jquery-playground" class="tab-pane fade">
                 <div>
-                    <p>
-                        <button type="button" class="btn btn-info btn-xs" onclick="refreshIframe();" id="refresh-playground">
-                        <i class="fa fa-refresh fa-fw" aria-hidden="true"></i> Click to play the animations again!
-                    </button>
-                </p>
                     <div class="jumbotron">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="projects/jQuery-playground.html" name="jquery-playground-iframe"></iframe>
+                            <iframe class="embed-responsive-item" src="projects/jQuery-playground.html" id="jquery-playground-iframe"></iframe>
                         </div>
                     </div>
                 </div>
@@ -109,7 +105,7 @@ function refreshIframe() {
 
             <div id="tribute-page" class="tab-pane fade">
                 <div>
-                        <h3>Coming Soon...</h3>
+                    <h3>Coming Soon...</h3>
                 </div>
             </div>
         </div>
