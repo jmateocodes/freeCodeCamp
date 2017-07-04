@@ -70,10 +70,6 @@
     .jumbotext {
         color: black;
     }
-
-    .embed-responsive {
-        overflow: auto;
-    }
 </style>
 
 <body class="text-center">
@@ -106,7 +102,7 @@
                 <div>
                     <div class="jumbotron">
                         <h4 class="jumbotext">This is a front-end only Cat Photo App.<br>HTML5, CSS, and Bootstrap were used to create this page.</h4>
-                        <div class="embed-responsive embed-responsive-4by3">
+                        <div class="embed-responsive embed-responsive-4by3" style="overflow:auto;-webkit-overflow-scrolling:touch">
                             <iframe class="embed-responsive-item" id="cat-photo-app-iframe" src="projects/cat-photo-app.html"></iframe>
                         </div>
                     </div>
@@ -117,7 +113,7 @@
                 <div>
                     <div class="jumbotron">
                         <h4 class="jumbotext">This page was created to learn jQuery's front-end methods.<br>Press the tab to reload the animations.<br>HTML5, Bootstrap, and jQuery were used to create this page.</h4>
-                        <div class="embed-responsive embed-responsive-16by9">
+                        <div class="embed-responsive embed-responsive-16by9" style="overflow:auto;-webkit-overflow-scrolling:touch">
                             <iframe class="embed-responsive-item" src="projects/jQuery-playground.html" id="jquery-playground-iframe"></iframe>
                         </div>
                     </div>
