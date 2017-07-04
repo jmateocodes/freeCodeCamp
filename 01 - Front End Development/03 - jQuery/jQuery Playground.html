@@ -1,55 +1,60 @@
-<!-- jQuery CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-</script>
-
-<!-- Animate CSS CDNJS -->
+<!DOCTYPE html>
+<html>
 
 <head>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <!-- Animate CSS CDNJS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Font Awesome CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- END CDN -->
+
+
+    <!-- jQuery Script -->
+    <script>
+        $(document).ready(function() {
+            $("#target1").css("color", "red");
+            $("#target1").prop("disabled", true);
+            $("#target4").remove();
+            $("#target2").appendTo("#right-well");
+            $("#target5").clone().appendTo("#left-well");
+            $("#target1").parent().css("background-color", "red");
+            $("#right-well").children().css("color", "orange");
+            $("#left-well").children().css("color", "green");
+            $(".target:nth-child(2)").addClass("animated bounce");
+            $(".target:even").addClass("animated shake");
+            //NOTE: Commented this out so the page can show 
+            //$("body").addClass("animated hinge");
+        });
+    </script>
 </head>
 
-<!-- END CDN -->
-
-<!-- jQuery Script -->
-<script>
-    $(document).ready(function() {
-        $("#target1").css("color", "red");
-        $("#target1").prop("disabled", "true");
-    });
-</script>
-
-<!-- ONLY CHANGE CODE ABOVE THIS LINE! -->
-<!-- Bootstrap: Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Bootstrap: Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Font Awesome CDN -->
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-<!-- END CDN -->
-
-<div class="container-fluid">
-
-    <h3 class="text-primary text-center">jQuery Playground</h3>
-    <div class="row">
-        <div class="col-xs-6">
-            <h4>#left-well</h4>
-            <div class="well" id="left-well">
-                <button class="btn btn-default target" id="target1">#target1</button>
-                <button class="btn btn-default target" id="target2">#target2</button>
-                <button class="btn btn-default target" id="target3">#target3</button>
+<body>
+    <div class="container-fluid">
+        <h3 class="text-primary text-center">jQuery Playground</h3>
+        <div class="row">
+            <div class="col-xs-6">
+                <h4>#left-well</h4>
+                <div class="well" id="left-well">
+                    <button class="btn btn-default target" id="target1">#target1</button>
+                    <button class="btn btn-default target" id="target2">#target2</button>
+                    <button class="btn btn-default target" id="target3">#target3</button>
+                </div>
             </div>
-        </div>
-        <div class="col-xs-6">
-            <h4>#right-well</h4>
-            <div class="well" id="right-well">
-                <button class="btn btn-default target" id="target4">#target4</button>
-                <button class="btn btn-default target" id="target5">#target5</button>
-                <button class="btn btn-default target" id="target6">#target6</button>
+            <div class="col-xs-6">
+                <h4>#right-well</h4>
+                <div class="well" id="right-well">
+                    <button class="btn btn-default target" id="target4">#target4</button>
+                    <button class="btn btn-default target" id="target5">#target5</button>
+                    <button class="btn btn-default target" id="target6">#target6</button>
+                </div>
             </div>
         </div>
     </div>
+</body>
 
-</div>
+</html>

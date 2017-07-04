@@ -1,0 +1,30 @@
+All jQuery selectors start with a '$'
+
+You can target elements by type $("button"), class $(".well"), or by ID $("#target3")
+
+You can add a class using jQuery .addClass(), and remove one with .removeClass()
+
+You can use the .css() function in jQuery to change the CSS of an element
+
+jQuery's .prop() function allows you to change the proporties of elements
+
+jQuery has a function called .html() that lets you add HTML tags and text within an element.
+
+jQuery has a .text() function that only alters texts, not tags
+
+.remove() removes an HTML element entirely. You don't pass anyting to the function
+
+(ELEMENT).appendTo("#DIV-ID") is used to move elements from one place to the other.
+
+.clone() clones an element. It is used with the .appendTo().
+
+.parent() allows you to access the parent of whichever element you have selected. You then chain it to another function to change it. For example, .parent().css(edit)
+
+    There is also .children()
+
+jQuery uses CSS Selectors to target elements. target:nth-child(n) css selector allows you to select all the nth elements with the target class or element type.
+
+    Here's how you would give the third element in each well the bounce class:
+        $(".target:nth-child(3)").addClass("animated bounce");
+
+You can use .target:odd or .target:even to target all of the odd or even numbered elements. jQuery is zero-indexed.
