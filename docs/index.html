@@ -1,25 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <!-- BootStrap -->
+    <title>
+        Johanny Mateo's freeCodeCamp Portfolio
+    </title>
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Font Awesome CDN -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Font -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 </head>
+
+<script>
+function refreshIframe() {
+    var ifr = document.getElementsByName('jquery-playground-iframe')[0];
+    ifr.src = ifr.src;
+}
+</script>
 
 <style>
     body {
-        
+        margin: 0px 25px 0px 25px;
+        font-size: 175%;
+    }
+
+    #greet {
+        font-size: 250%;
+    }
+
+    .jumbotron {
+        background: white;
+        border-top-left-radius: 0% !important;
+        border-top-right-radius: 0% !important;
+        margin-top: 1px;
+    }
+
+    .top-btns {
+        font-size: 125%;
+        border-top-left-radius: 0% !important;
+        border-top-right-radius: 0% !important;
+    }
+    .top-btns a:hover {
+        text-decoration: none;
+    }
+    #view-repo {
+        font-size: 75%;
     }
 </style>
 
-<body>
+<body class="text-center">
     <div class="container-fluid">
-        <h2>freeCodeCamp Assignments and Projects</h2>
-        <p>
+
+        <div class="buttons">
+            <button type="button" class="btn btn-default top-btns">
+            <a href="https://www.github.com/jomateo" target="_blank">
+            <i class="fa fa-github fa-2x fw" aria-hidden="true"></i><p class="top-links">View GitHub</p></a>
+            </button>
+            <button type="button" class="btn btn-default top-btns">
+            <a href="https://www.linkedin.com/in/joamateo/" target="_blank">
+            <i class="fa fa-linkedin-square fa-2x fw" aria-hidden="true"></i><p>View LinkedIn</p></a>
+            </button>
+        </div>
+
+        <h1 id="greet">Johanny Mateo's freeCodeCamp Portfolio</h1>
+        <p>This is a portfolio to showcase everything that I have been learning at <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp.org</a><br>Please note that all of these projects are in progress, unless noted otherwise.</p>
+        <br>
+        <ul class="nav nav-tabs nav-justified">
+            <li class="active"><a data-toggle="tab" href="#cat-photo-app">Cat Photo App</a></li>
+            <li><a data-toggle="tab" href="#jquery-playground">jQuery Playground</a></li>
+            <li><a data-toggle="tab" href="#tribute-page">Alan Turing's Tribute Page</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="cat-photo-app" class="tab-pane fade in active">
+                <div>
+                    <div class="jumbotron">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="../01 - Front End Development/01 - HTML5 and CSS/Cat Photo App.html"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="jquery-playground" class="tab-pane fade">
+                <div>
+                    <p>
+                        <button type="button" class="btn btn-info btn-xs" onclick="refreshIframe();" id="refresh-playground">
+                        <i class="fa fa-refresh fa-spin fa-fw" aria-hidden="true"></i> Click to play the animations again!
+                    </button>
+                </p>
+                    <div class="jumbotron">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="../01 - Front End Development/03 - jQuery/jQuery Playground.html" name="jquery-playground-iframe"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tribute-page" class="tab-pane fade">
+                <div>
+                    <div class="jumbotron">
+                        <iframe class="embed-responsive embed-reponsive-16by9" src="../Tribute Page/Tribute Page.html"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-info btn-xs" id="view-repo">
+            <a href="https://www.github.com/jomateo/freeCodeCamp" target="_blank">
+            <i class="fa fa-github fa-1x" aria-hidden="true"> View this website's repository</i></a>
+    </button>
+        <br>
+        <br>
+
     </div>
 </body>
 
