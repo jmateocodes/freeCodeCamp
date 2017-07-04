@@ -33,7 +33,7 @@
 
 <style>
     body {
-        margin: 0px 25px 0px 25px;
+        margin: 0px 25px 0% 25px;
         font-size: 175%;
     }
 
@@ -41,24 +41,34 @@
         font-size: 250%;
     }
 
-    .jumbotron {
-        background: white;
+    .top-btns {
+        font-size: 110%;
         border-top-left-radius: 0% !important;
         border-top-right-radius: 0% !important;
-        margin-top: 1px;
     }
 
-    .top-btns {
-        font-size: 125%;
-        border-top-left-radius: 0% !important;
-        border-top-right-radius: 0% !important;
+    #view-repo {
+        font-size: 72%
     }
 
     .btn {
         color: #0ce3ac;
     }
+
     .buttons a:hover {
         text-decoration: none;
+    }
+
+    .jumbotron {
+        background: white;
+        border-top-left-radius: 0% !important;
+        border-top-right-radius: 0% !important;
+        margin-top: 1px;
+        padding: 10px;
+    }
+
+    .jumbotext {
+        color: black;
     }
 </style>
 
@@ -91,7 +101,8 @@
             <div id="cat-photo-app" class="tab-pane fade in active">
                 <div>
                     <div class="jumbotron">
-                        <div class="embed-responsive embed-responsive-16by9" style="overflow:auto;-webkit-overflow-scrolling:touch">
+                        <h4 class="jumbotext">This is a front-end only Cat Photo App.<br>HTML5, CSS, and Bootstrap were used to create this page.</h4>
+                        <div class="embed-responsive embed-responsive-4by3">
                             <iframe class="embed-responsive-item" id="cat-photo-app-iframe" src="projects/cat-photo-app.html"></iframe>
                         </div>
                     </div>
@@ -101,6 +112,7 @@
             <div id="jquery-playground" class="tab-pane fade">
                 <div>
                     <div class="jumbotron">
+                        <h4 class="jumbotext">This page was created to learn jQuery's front-end methods.<br>Press the tab to reload the animations.<br>HTML5, Bootstrap, and jQuery were used to create this page.</h4>
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="projects/jQuery-playground.html" id="jquery-playground-iframe"></iframe>
                         </div>
@@ -110,14 +122,16 @@
 
             <div id="tribute-page" class="tab-pane fade">
                 <div>
-                    <h3>Coming Soon...</h3>
+                    <div class="jumbotron">
+                        <h3 class="jumbotext">Coming soon...</h3>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="buttons">
             <a href="https://www.github.com/jomateo/freeCodeCamp" target="_blank">
-        <button type="button" class="btn btn-info btn-xs" id="view-repo">
-            <i class="fa fa-github fa-1x" aria-hidden="true"> View projects' repository</i>
+        <button type="button" class="btn btn-default" id="view-repo">
+            <i class="fa fa-github" aria-hidden="true"> View projects' repository</i>
     </button>
     </a>
         </div>
