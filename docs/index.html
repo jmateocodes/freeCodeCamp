@@ -74,8 +74,14 @@ TODO: set mobile view, set jumbotron in a div so that view-repo button doesnt mo
         color: black;
     }
 
-    .embed-responsive-item {
+    .scroll-wrapper {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        top: 0;
         -webkit-overflow-scrolling: touch;
+        overflow-y: scroll;
     }
 </style>
 
@@ -120,7 +126,7 @@ TODO: set mobile view, set jumbotron in a div so that view-repo button doesnt mo
                 <div>
                     <div class="jumbotron">
                         <h4 class="jumbotext">This page was created to learn jQuery's front-end methods.<br>Press the tab to reload the animations.<br>HTML5, Bootstrap, and jQuery were used to create this page.</h4>
-                        <div class="embed-responsive embed-responsive-16by9">
+                        <div class="embed-responsive embed-responsive-16by9 scroll-wrapper">
                             <iframe class="embed-responsive-item" src="projects/jQuery-playground.html" id="jquery-playground-iframe"></iframe>
                         </div>
                     </div>
