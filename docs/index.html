@@ -35,7 +35,7 @@ TODO: set mobile view, set jumbotron in a div so that view-repo button doesnt mo
 </script>
 
 <style>
-body {
+    body {
         margin: 0px 25px 0% 25px;
         font-size: 175%;
     }
@@ -74,14 +74,6 @@ body {
         color: black;
     }
 
-    .scroll-wrapper {
-        -webkit-overflow-scrolling: touch;
-        position: relative;
-        height: 510px;
-        overflow-y: scroll;
-    }
-}
-@media(device-width: 768px) and (device-height: 1024px) {
      ::-webkit-scrollbar {
         -webkit-appearance: none;
         width: 7px;
@@ -90,9 +82,9 @@ body {
      ::-webkit-scrollbar-thumb {
         border-radius: 4px;
         background-color: rgba(0, 0, 0, .5);
+        box-shadow: 0 0 1px rgba(255, 255, 255, .5);
         -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
     }
-}
 </style>
 
 <body class="text-center">
