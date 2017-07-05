@@ -74,7 +74,11 @@ TODO: set mobile view, set jumbotron in a div so that view-repo button doesnt mo
         color: black;
     }
 
-    #cat-photo-app-iframe {
+    .embed-responsive-item {
+        -webkit-overflow-scrolling: touch !important;
+    }
+
+    .scroll-wrapper {
         overflow-y: scroll !important;
     }
 </style>
@@ -109,7 +113,7 @@ TODO: set mobile view, set jumbotron in a div so that view-repo button doesnt mo
                 <div>
                     <div class="jumbotron">
                         <h4 class="jumbotext">This is a front-end only Cat Photo App.<br>HTML5, CSS, and Bootstrap were used to create this page.</h4>
-                        <div class="embed-responsive embed-responsive-4by3" style="overflow:auto;-webkit-overflow-scrolling:touch">
+                        <div class="embed-responsive embed-responsive-4by3 scroll-wrapper">
                             <iframe class="embed-responsive-item" id="cat-photo-app-iframe" src="projects/cat-photo-app.html"></iframe>
                         </div>
                     </div>
@@ -120,7 +124,7 @@ TODO: set mobile view, set jumbotron in a div so that view-repo button doesnt mo
                 <div>
                     <div class="jumbotron">
                         <h4 class="jumbotext">This page was created to learn jQuery's front-end methods.<br>Press the tab to reload the animations.<br>HTML5, Bootstrap, and jQuery were used to create this page.</h4>
-                        <div class="embed-responsive embed-responsive-16by9" style="overflow:auto;-webkit-overflow-scrolling:touch">
+                        <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="projects/jQuery-playground.html" id="jquery-playground-iframe"></iframe>
                         </div>
                     </div>
