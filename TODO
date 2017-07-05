@@ -1,0 +1,19 @@
+TODO
+-Set mobile view
+-Set jumbotron as a fixed div so the view-repo button doesn't move up and down
+
+FIXME
+- Scrollbar doesn't show up on iOS and MacOS for cat app, so users cant tell you have to scroll
+
+REVIEW
+
+BUG
+
+NOTE
+-Changed button colors from Bootstrap CSS from white to teal
+-Changed font from Lato to Zilla Slab
+-Commented out hinge page on jQUery Playground so page can show
+
+XXX
+
+HACK

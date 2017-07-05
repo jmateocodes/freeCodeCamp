@@ -3234,7 +3234,7 @@ textarea.input-lg, select[multiple].input-lg {
     outline-offset: -2px
 }
 
-/*NOTE: color from white to turqoise changed*/
+/*NOTE: color from white to teal changed*/
 .btn:hover, .btn:focus, .btn.focus {
     color: #0ce3ac !important;
     text-decoration: none
