@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>A Tribute Page to Alan Turing</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Font Awesome CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- CSS Import -->
+    <link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
+</head>
+
+<style>
+    body {
+        margin: 1em 1em 1em 1em;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    #alan-image {
+        padding: 1em;
+    }
+
+    .bullet:before {
+        font-family: 'FontAwesome';
+        font-size: 70%;
+        content: '\f2bd';
+    }
+
+    .arrow:before {
+        font-family: 'FontAwesome';
+        content: '\f101';
+    }
+
+    .one-indent {
+        padding-left: 2em;
+    }
+
+    .two-indent {
+        padding-left: 4em;
+    }
+    #alan-quote {
+        margin-right: 6em;
+        font-size: 130%;
+        margin-bottom: 2em;
+    }
+    .well {
+        margin-left: 7em;
+        margin-right: 7em;
+    }
+
+    #timeline {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    p {
+        font-size: 110%;
+    }
+
+    #alan-label {
+        text-align: center;
+        font-size: 110%
+    }
+
+    .my-info {
+        padding-bottom: 1em;
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+        <div class="text-center">
+            <h5>A tribute page to:</h5>
+            <h1>Alan Turing</h1>
+            <hr width="50%">
+            <h3>The Father of Modern Computing</h3>
+            <h5>(1912 - 1954)</h5>
+        </div>
+
+        <img src="../images/alan-turing.jpg" class="img-circle center-block" alt="A picture of Alan Turing" id="alan-image" width="250" height="350"><br>
+
+        <blockquote class="blockquote-reverse" id="alan-quote">A man provided with paper, pencil, and rubber, and subject to strict discipline, is in effect a universal machine.<small>Alan Turing,<cite title="Source Title"> Intelligent Machinery</cite></small></blockquote>
+
+        <div class="well">
+            <div id="timeline">
+                <ul>
+                    <li>
+                        <p class="bullet"> June 23, 1912 - Alan Mathison Turing was born in London, England.</p>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="bullet"> 1927 - At age 15, Turing was already solving advanced mathematical problems without having studied elementary calculus.</p>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="bullet"> 1936 - Turing published "On Computable Numbers, with an Application to the Entscheidungsproblem".</p>
+                        <li>
+                            <p class="arrow one-indent"> Turing created an abstract "universal computing machine"; a device which is capable of solving any mathematical computation if the problem was represented as an algorithm. This is now known as a Turing machine.</p>
+                            <li>
+                                <p class="arrow two-indent"> Turing proved that the Entscheidungsproblem (decision problem) was unsolvable, by proving that it is impossible to decide algorithmically whether or not a Turing machine will ever halt.</p>
+                            </li>
+                        </li>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="bullet"> (1939 - 1945) - During WW2, Turing had a huge role in helping the Allies win the war by creating the Bombe, a machine which deciphered German ciphers.</p>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="bullet"> (1945 - 1947) - Turing worked on the design of the ACE (Automatic Computing Engine).</p>
+                        <li>
+                            <p class="arrow one-indent"> February 19, 1946 - Turing presented a paper which contained the first detailed design of a stored-program computer.</p>
+                        </li>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="bullet"> 1946 - Turing was appointed an Officer of the Order of the British Empire (OBE) by King George VI because of his help and services offered during WW2.</p>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="bullet"> October 1950 - Turing published "Computing Machinery and Intelligence".</p>
+                        <li>
+                            <p class="arrow one-indent"> Turing proposed an experiment which is now known as the Turing test. The Turing test is now a standard for determining whether or not a computer can be considered "intelligent". A computer can be considered intelligent if a
+                                human talking to it cannot tell that it is a computer.</p>
+                            <li>
+                                <p class="arrow two-indent"> CAPTCHA is a reverse Turing test. The computer has to decide whether or not the user is human.</p>
+                            </li>
+                        </li>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="bullet"> 1952 - Turing was dating a man, Arnold Murray. Murray's friend burglarized Turing's home, and when Turing called the police, he admitted he was gay, in a time where being queer was punishable by law. Turing had to decide between
+                            going to prison or probation; he chose probation. Part of Turing's probation agreement was to receive injections of a synthetic estrogen to reduce his libido.</p>
+                        <li>
+                            <p class="arrow one-indent"> Due to his conviction, his security clearance to work with the British government was removed, and he was denied entry into the United States.</p>
+                        </li>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="bullet"> 1953 - Turing was credited with creating the first computer chess program.</p>
+                        <li>
+                            <p class="arrow one-indent"> He wrote the algorithm in 1948, but a computer powerful enough to run the algorithm did not exist. Instead, Turing played the game by hand against a colleague of his, simulating the computer's would-be moves.</p>
+                        </li>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="bullet"> June 7, 1954 - At age 41, after suffering for two years because of hormonal injections (synthetic estrogen), Turing died from cyanide poising. It is highly suspected that he committed suicide.</p>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="bullet"> December 24, 2013 - Queen Elizabeth II officially pardoned Turing.</p>
+                    </li>
+                    <hr>
+                    <li>
+                        <p class="bullet"> January 31, 2017 - The Alan Turing law passed. The Alan Turing law is an informal name for a law in the United Kingdom which serves as an amnesty law to retroactively pardon men who were convicted because of homosexual laws that
+                            are now outlawed.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="alan-label">
+                <a href="https://en.wikipedia.org/wiki/Alan_Turing" target="_blank">
+            <span class="label label-info"><i class="fa fa-wikipedia-w" aria-hidden="true"> More on Alan Turing</i></span></a>
+            </div>
+        </div>
+
+        <div class="my-info text-center">
+            <small>Created by <a href="https://github.com/jomateo" target="_blank">Johanny Mateo</a></small>
+        </div>
+
+    </div>
+</body>
+
+</html>
