@@ -3,9 +3,40 @@ He was a computer scientist, mathematician, logician, cryptanalyst, philosopher,
 Born on June 23, 1912
 London england
 
-Died June 7, 1941
+Died June 7, 1954
 Cheshire, England (Cyanide poisoning)
 
 At age 15 he was solving advanced mathematical problems without having studied elementary calculus
 
 Christopher Morcom, first love
+
+1936: Turing published "On Computable Numbers, with an Application to the Entscheidungsproblem". Proved that the Entscheidungsproblem (decision problem) was unsolvable, and created the abstarct Turing Machine
+
+During World War 2, he helped the Allies win the war by creating the bombe, a machine which deciphered German ciphers.
+
+1945-1947 Worked on the design of the ACE (Automatic Computing Engine).
+
+Feb 19 1946- presented a paper which was the first detailed design of a stored-program computer
+
+Oct 1950 - published "Computing Machinery and Intelligence"
+Proposed an experiment which became known as the Turing test.
+The turing test is now a standard for wether or not a computer can be deemed intelligent. A computer can be deemed intelligent if a human talking to it cannot tell that it is a computer.
+CAPTCHA is a reverse Turing test, the computer has to determine if the user is a human or another computer.
+
+
+
+1946: Turing was appointed an Officer of the Order of the British Empire (OBE) by King George VI for his wartime services
+
+He was gay. In 1952, when being queer was illegal, he admitted to having sex with a man. He had to chose between going to jail or taking hormones to lower his sex drive. He chose to take the hormones. The hormones interefered greatly COMPLETE. He was royally pardoned on Dec. 24, 2013.
+
+In 1952, he was dating a man, Arnold Murray. Murray's friend burlgarized Turing's home, and when Turing called the police, he admitted he was gay, in a time where being queer was punishable by law. He had to choose between going to prison, or receiving probation, under the agreement that he takes hormones to reduce his libido. He decided to accept probation, and treatment via injection of a synthetic form of estrogen.
+
+Because of his conviction, his security clearance to work with the British government was removed, and he was denied entry to the United States.
+
+1953 - Credited with creating the world's first computer chess program. He wrote the algorithm in 1948, but a computer powerful enough to run the algorithm did not exist. Turing played the chess game by hand, simulating the computer's would-be moves.
+
+June 7 1954, 41, after suffering for 2 years, Turing died from cyanide poisining. It is suspected he commited suicide.
+
+August 2014 the Queen officially pardoned Turing
+
+Alan Turing law is an informal name for a law in the United Kingdom which serves as an amnesty law to retroactively pardon men who were convicted because of outlawed homosexual laws.

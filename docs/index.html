@@ -22,11 +22,15 @@
 
 <script>
     $(document).ready(function() {
+        jQuery("#cat-app").click(function() {
+            document.getElementById('cat-photo-app-iframe').contentWindow.location.reload();
+        })
         jQuery("#playground").click(function() {
             document.getElementById('jquery-playground-iframe').contentWindow.location.reload();
         })
-        jQuery("#cat-app").click(function() {
-            document.getElementById('cat-photo-app-iframe').contentWindow.location.reload();
+
+        jQuery("#alan-tribute").click(function() {
+            document.getElementById('tribute-page-iframe').contentWindow.location.reload();
         })
     });
 </script>
@@ -106,7 +110,7 @@
         <ul class="nav nav-tabs nav-justified">
             <li class="active" id="cat-app"><a data-toggle="tab" href="#cat-photo-app">Cat Photo App</a></li>
             <li id="playground"><a data-toggle="tab" href="#jquery-playground">jQuery Playground</a></li>
-            <li><a data-toggle="tab" href="#tribute-page">Alan Turing's Tribute Page</a></li>
+            <li id="alan-tribute"><a data-toggle="tab" href="#tribute-page">A Tribute Page to Alan Turing</a></li>
         </ul>
 
         <div class="tab-content">
@@ -133,8 +137,11 @@
             </div>
 
             <div id="tribute-page" class="tab-pane fade">
-                <div>
-                    <h3>Coming Soon...</h3>
+                <div class="jumbotron">
+                    <h4 class="jumbotext">This is my first unassisted-project assignment.<br>HTML5, CSS, and Bootstrap were used to create this page.<br><a href="https://codepen.io/jomateo/full/PjBKEV/" target="_blank">View on CodePen</a></h4>
+                    <div class="embed-responsive embed-responsive-4by3 scroll-wrapper">
+                        <iframe class="embed-responsive-item" src="projects/tribute-page/tribute-page.html" id="tribute-page-iframe"></iframe>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,32 @@
+June 23, 1912 - Alan Mathison Turing was born in London, England.
+
+1927 - At age 15, Turing was already solving advanced mathematical problems without having studied elementary calculus.
+
+ 1936 - Turing published "On Computable Numbers, with an Application to the Entscheidungsproblem".
+    Turing created an abstract "universal computing machine"; a device which is capable of solving any mathematical computation if the problem was represented as an algorithm. This is now known as a Turing machine.
+        Turing proved that the Entscheidungsproblem (decision problem) was unsolvable, by proving that it is impossible to decide algorithmically whether or not a Turing machine will ever halt.
+
+(1939 - 1945) - During WW2, Turing had a huge role in helping the Allies win the war by creating the Bombe, a machine which deciphered German ciphers.
+
+(1945 - 1947) - He worked on the design of the ACE (Automatic Computing Engine).
+    February 19, 1946 - Presented a paper which was the first detailed design of a stored - program computer.
+
+1946 - Turing was appointed an Officer of the Order of the British Empire (OBE) by King George VI because of his help and services offered during WW2.
+
+October 1950 - Turing published "Computing Machinery and Intelligence".
+    Turing proposed an experiment which is now known as the Turing test. The Turing test is now a standard for determining whether or not a computer can be considered "intelligent". A computer can be considered intelligent if a human talking to it cannot tell that it is a computer.
+        CAPTCHA is a reverse Turing test. The computer has to decide whether or not the user is human.
+
+1952 - Turing was dating a man, Arnold Murray. Murray's friend burglarized Turing's home, and when Turing called the police, he admitted he was gay, in a time where being queer was punishable by law. Turing had to decide between going to prison or probation; he chose probation. Part of Turing's probation agreement was to receive injections of a synthetic estrogen to reduce his libido.
+    Due to his conviction, his security clearance to work with the British government was removed, and he was denied entry into the United States.
+
+1953 - Turing was credited with creating the first computer chess program.
+    He wrote the algorithm in 1948, but a computer powerful enough to run the algorithm did not exist. Instead, Turing played the game by hand against a colleague of his, simulating the computer's would-be moves.
+
+June 7, 1954 - At age 41, after suffering for two years because of hormonal injections (synthetic estrogen), Turing died from cyanide poising. It is highly suspected that he committed suicide.
+
+December 24, 20013 - Queen Elizabeth II officially pardoned Turing.
+
+January 31, 2017 - The Alan Turing law passed. The Alan Turing law is an informal name for a law in the United Kingdom which serves as an amnesty law to retroactively pardon men who were convicted because of homosexual laws that are now outlawed.
+
+A man provided with paper, pencil, and rubber, and subject to strict discipline, is in effect a universal machine.
