@@ -28,7 +28,6 @@
         jQuery("#playground").click(function() {
             document.getElementById('jquery-playground-iframe').contentWindow.location.reload();
         })
-
         jQuery("#alan-tribute").click(function() {
             document.getElementById('tribute-page-iframe').contentWindow.location.reload();
         })
@@ -36,7 +35,7 @@
 </script>
 
 <style>
-    body {
+body {
         margin: 0px 25px 0% 25px;
         font-size: 175%;
     }
@@ -75,17 +74,10 @@
         color: black;
     }
 
-     ::-webkit-scrollbar {
-        -webkit-appearance: none;
-        width: 7px;
+    .embed-responsive {
+        -webkit-overflow-scrolling: touch !important;
     }
-
-     ::-webkit-scrollbar-thumb {
-        border-radius: 4px;
-        background-color: rgba(0, 0, 0, .5);
-        box-shadow: 0 0 1px rgba(255, 255, 255, .5);
-        -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
-    }
+}
 </style>
 
 <body class="text-center">
@@ -105,7 +97,8 @@
         </div>
 
         <h1 id="greet">Johanny Mateo's freeCodeCamp Portfolio</h1>
-        <p>This is a portfolio to showcase everything that I have been learning at <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp.org</a><br>Please note that all of these projects are in progress, unless noted otherwise.</p>
+        <p>This is a portfolio to showcase everything that I have been learning at <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp.org</a><br>Please note that all of these projects are in progress, unless noted otherwise.<br>
+            <small class="text-warning">If you are on a mobile device, please scroll down on each tab until you see "&#8211; end &#8211;".</small></p>
         <br>
         <ul class="nav nav-tabs nav-justified">
             <li class="active" id="cat-app"><a data-toggle="tab" href="#cat-photo-app">Cat Photo App</a></li>
@@ -118,7 +111,7 @@
                 <div>
                     <div class="jumbotron">
                         <h4 class="jumbotext">This is a front-end only Cat Photo App.<br>HTML5, CSS, and Bootstrap were used to create this page.</h4>
-                        <div class="embed-responsive embed-responsive-4by3 scroll-wrapper">
+                        <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" id="cat-photo-app-iframe" src="projects/cat-photo-app.html"></iframe>
                         </div>
                     </div>
@@ -129,7 +122,7 @@
                 <div>
                     <div class="jumbotron">
                         <h4 class="jumbotext">This page was created to learn jQuery's front-end methods.<br>Press the tab to reload the animations.<br>HTML5, Bootstrap, and jQuery were used to create this page.</h4>
-                        <div class="embed-responsive embed-responsive-16by9 scroll-wrapper">
+                        <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="projects/jQuery-playground.html" id="jquery-playground-iframe"></iframe>
                         </div>
                     </div>
@@ -139,7 +132,7 @@
             <div id="tribute-page" class="tab-pane fade">
                 <div class="jumbotron">
                     <h4 class="jumbotext">This is my first unassisted-project assignment.<br>HTML5, CSS, and Bootstrap were used to create this page.<br><a href="https://codepen.io/jomateo/full/PjBKEV/" target="_blank">View on CodePen</a></h4>
-                    <div class="embed-responsive embed-responsive-4by3 scroll-wrapper">
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="projects/tribute-page/tribute-page.html" id="tribute-page-iframe"></iframe>
                     </div>
                 </div>
