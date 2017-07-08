@@ -1,0 +1,15 @@
+// This is an inline comment.
+/*
+This is a multi-line comment
+*/
+
+/*
+JS has 7 types of data types: undefined, null, boolean, string, symbol, number, and object
+
+JS declares variables by putting "var" before it.
+    var ourName;
+
+Use \ to escape characters. For instance if you need to put quotes inside of a string.\r is for carriage return, \f is for form feed
+
+Single and double quotes are identical in javascript.
+*/
