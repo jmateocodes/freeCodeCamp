@@ -12,4 +12,25 @@ JS declares variables by putting "var" before it.
 Use \ to escape characters. For instance if you need to put quotes inside of a string.\r is for carriage return, \f is for form feed
 
 Single and double quotes are identical in javascript.
+
+In js, once you declare a string, you cannot change their characters. String are "immutable".
+    var myStr = "Bob";
+    myStr[0] = "J";
+    ^THIS CANNOT BE DONE. You have to assign myStr a new string.
+
+Arrays don't have to be explicitly declared, and can contain multiple types.
+    var myArray = ["Jump", 1];
+
+Multi-dimensional array:
+    var [["first", "array", ["second", "array"]];
+
+Arrays are mutable, you can change them freely after declaring them.
+
+.push() pushes an item to the end of an array
+.push([...]) pushes an array into the end of an array
+.unshift() adds an element to the front of an array
+.pop() is to remove a value from the end of an array
+.shift() removes the first value from the array
+
+
 */
