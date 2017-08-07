@@ -56,4 +56,7 @@ In JS, == tests the value. It converts data types to the same type and then comp
 
 != is inequality, and !== is strict inequality
 
+<, >, <=, and >= also convert data types and then test equality.
+
+
 */
